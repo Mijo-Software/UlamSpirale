@@ -1,20 +1,31 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C# Express 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UlamSpirale", "UlamSpirale\UlamSpirale.csproj", "{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}.Debug|x64.ActiveCfg = Debug|x64
+		{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}.Debug|x64.Build.0 = Debug|x64
 		{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}.Release|x64.ActiveCfg = Release|x64
+		{EF4ECB28-DE5C-4802-9426-88E6BBA9DBDB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DD97FB4-C64F-43F1-BB02-413FF6A5D4BE}
 	EndGlobalSection
 EndGlobal
