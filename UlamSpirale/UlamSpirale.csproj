@@ -157,6 +157,24 @@
     <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetFramework.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetFramework.CSharp.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_color_swatch_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_color_wheel_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatcow_control_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_color-swatch_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_color-wheel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fugue_control_16.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
